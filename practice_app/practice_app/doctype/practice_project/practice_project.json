@@ -9,7 +9,8 @@
   "status",
   "budget",
   "start_date",
-  "description"
+  "description",
+  "tasks"
  ],
  "fields": [
   {
@@ -37,12 +38,18 @@
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "label": "Description"
+  },
+  {
+   "fieldname": "tasks",
+   "fieldtype": "Table",
+   "label": "Tasks",
+   "options": "Project Task"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-10-12 18:34:35.092066",
+ "modified": "2026-10-12 19:36:58.092390",
  "modified_by": "Administrator",
  "module": "Practice App",
  "name": "Practice Project",
